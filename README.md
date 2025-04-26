@@ -1,6 +1,6 @@
 # Shop
 
-- [Online Demo](https://shop-six-psi-59.vercel.app/)
+[Online Demo](https://shop-six-psi-59.vercel.app/)
 
 
 ![Alt text](https://github.com/user-attachments/assets/7e13ac9b-1a83-4dbe-b224-a1abffc12fdd)
