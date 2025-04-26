@@ -1,0 +1,1 @@
+export const images = ['/images/ceecee-woman.webp', '/images/ceecee-sun.webp', '/images/frame-tebi-woman.webp', '/images/frame-tebi.webp']

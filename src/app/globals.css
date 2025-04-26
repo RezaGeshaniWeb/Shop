@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'kalame';
+  src: url(../../public/fonts/Kalameh-Regular.woff2);
+}
+
+body {
+  font-family: 'kalame';
+}
