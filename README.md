@@ -6,7 +6,9 @@
 
 - Created - 2025-04-26
 
-- Technologies Used - Html , TailwindCSS , API , React , Next.Js , Zustand , LocalStorage , SwiperJs , MUI
+- Technologies Used - Html , TailwindCSS , API , React , Next.Js , LocalStorage
+
+- Dependencies - MUI , SwiperJs , Zustand
 
 - Role - Frontend
 
