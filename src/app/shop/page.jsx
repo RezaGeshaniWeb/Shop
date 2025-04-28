@@ -1,13 +1,50 @@
-import ShopPage from "../components/templates/ShopPage";
+import BlogPage from "../components/templates/BlogPage";
 
-async function getData() {
-    const res = await fetch('https://680a04fa1f1a52874cdece8c.mockapi.io/products')
-    const data = await res.json()
-    return data
-}
+const blogsData = [
+    { 
+        id: 1, 
+        title: 'راهنمای کامل خرید لنز طبی | همه چیز درباره انواع و دوره‌های استفاده', 
+        author: 'رضا گشانی', 
+        date: '30 مهر 1403',
+        desc: 'راهنمای کامل خرید لنز طبی | همه چیز درباره انواع و دوره‌های استفاده لنزهای …',
+    },
+    { 
+        id: 2, 
+        title: 'لنز بی‌رنگ طبی چیست؟ | راهنمای کامل انتخاب و استفاده',
+        author: 'رضا گشانی', 
+        date: '18 بهمن 1403',
+        desc: 'لنز بی‌رنگ طبی چیست؟ | راهنمای کامل برای انتخاب و استفاده از لنز بی‌رنگ …',
+    },
+    { 
+        id: 3, 
+        title: 'چگونه عینک طبی مناسب انتخاب کنیم؟ | راهنمای جامع انتخاب فریم و عدسی عینک طبی', 
+        author: 'رضا گشانی', 
+        date: '22 فروردین 1404',
+        desc: 'چگونه عینک طبی مناسب انتخاب کنیم؟ | راهنمای جامع انتخاب فریم و عدسی عینک …',
+    },
+    { 
+        id: 4, 
+        title: 'راهنمای جامع انتخاب عدسی‌های عینک براساس ضریب شکست', 
+        author: 'رضا گشانی', 
+        date: '24 فروردین 1404',
+        desc: 'یکی از مهم‌ترین عوامل در انتخاب عدسی‌های عینک طبی، ضریب شکست عدسی (Index) است. …',
+    },
+    { 
+        id: 5, 
+        title: 'چگونه عینک آفتابی پلاریزه انتخاب کنیم؟', 
+        author: 'رضا گشانی', 
+        date: '26 فروردین 1404',
+        desc: 'عینک آفتابی پلاریزه یکی از بهترین گزینه‌ها برای محافظت از چشم‌ها در برابر تابش‌های …',
+    },
+    { 
+        id: 6, 
+        title: 'لنز طبی برای شماره چشم بالا', 
+        author: 'رضا گشانی', 
+        date: '30 فروردین 1404',
+        desc: 'لنز طبی برای چشم ضعیف شاید این سوال برای شما هم پیش آمده باشد …',
+    },
+]
 
-export default async function Shop() {
-    const data = await getData()
-
-    return <ShopPage data={data} />
+export default async function Blogs() {
+    return <BlogPage data={blogsData} />
 }
