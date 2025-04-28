@@ -2,6 +2,16 @@
 
 [Online Demo](https://shop-six-psi-59.vercel.app/)
 
+- Developed by Reza Geshani
+
+- Created - 2025-04-26
+
+- Technologies Used - API , React , Next.Js , Zustand , LocalStorage , SwiperJs , MUI
+
+- Role - Frontend
+
+- How to reach me : with my [instagram](https://www.instagram.com/rezageshani_web) and [linkedin](http://www.linkedin.com/in/reza-geshani-web)
+
 
 ![Alt text](https://github.com/user-attachments/assets/7e13ac9b-1a83-4dbe-b224-a1abffc12fdd)
 
@@ -18,12 +28,3 @@
 ![Alt text](https://github.com/user-attachments/assets/667ca03b-c6b0-46fd-8d3f-33173cd1e624)
 
 
-- Developed by Reza Geshani
-
-- Created - 2025-04-26
-
-- Technologies Used - API , React , Next.Js , Zustand
-
-- Role - Frontend
-
-- How to reach me : with my [instagram](https://www.instagram.com/rezageshani_web) and [linkedin](http://www.linkedin.com/in/reza-geshani-web)
