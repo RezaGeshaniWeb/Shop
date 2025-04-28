@@ -15,8 +15,8 @@ export default function Offcanvas({ isOpen, handleOffCanvas }) {
             <ul className="flex flex-col gap-8 *:text-slate-900 *:text-lg *:hover:text-slate-500 *:transition-all *:duration-200 p-5">
                 <li><Link href='/'>صفحه نخست</Link></li>
                 <li><Link href='/shop'>فروشگاه</Link></li>
-                <li><Link href='/blogs'>مقالات</Link></li>
                 <li><Link href='/questions'>سوالات متداول</Link></li>
+                <li><Link href='/blogs'>مقالات</Link></li>
             </ul>
         </ul>
     )
