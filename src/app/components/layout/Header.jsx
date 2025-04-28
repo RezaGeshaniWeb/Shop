@@ -24,8 +24,8 @@ export default function Header() {
                         <ul className="hidden lg:flex lg:gap-8 *:hover:text-slate-700 *:transition-all *:duration-200">
                             <li><Link href='/'>صفحه نخست</Link></li>
                             <li><Link href='/shop'>فروشگاه</Link></li>
-                            <li><Link href='/blogs'>مقالات</Link></li>
                             <li><Link href='/questions'>سوالات متداول</Link></li>
+                            <li><Link href='/blogs'>مقالات</Link></li>
                         </ul>
                     </nav>
                     <div className="w-1/3 flex items-center justify-center">
