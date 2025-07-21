@@ -2,7 +2,7 @@
 
 [Online Demo](https://shop-six-psi-59.vercel.app/)
 
-- Developed by Reza Geshani     
+- Developed by Reza Geshani       
 
 - Created - 2025-04-26
 
